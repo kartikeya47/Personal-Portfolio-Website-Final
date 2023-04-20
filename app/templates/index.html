@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Kartikeya Rawat" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Hello there! I'm Kartikeya Rawat from Dehradun, Uttarakhand, India. I'm currently pursuing Bachelors in Computer Science and Engineering at Vellore Institute of Technology, Tamil Nadu, India. Right now, I'm in my third year of undergrad program. I've a keen interest in Machine Learning, Deep Learning, Software Development and Cloud. I'm very exhilarated to contribute my part as a Computer Science Engineer to the society."
+    />
+    <!-- Webpage Logo -->
+    <link href="{{ url_for('static', filename = 'assets/img/website_logo.png')}}" rel="icon">
+    <!-- Webpage Title -->
+    <title>Kartikeya Rawat</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link href="{{ url_for('static', filename = 'assets/css/main.css')}}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    
+  </head>
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">Kartikeya Rawat</span>
+          <span class="site-description">ML Enthusiast • Programmer • SDE Enthusiast</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://in.linkedin.com/in/kartikeya-rawat-5a38181b3">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/kartikeya47">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/1h5ytP-yKNZS5IC0C9QQu_emplt4uRZpy/view?usp=sharing">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:kartike40@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>About Me</h1>
+        <picture>
+          <img width="20%" style="border-radius: 50%" src="{{ url_for('static', filename = 'assets/img/personal_picture.jpg')}}" alt="" class="img-fluid">
+        </picture>
+        <p>
+          Hello there! I'm Kartikeya Rawat from Dehradun, Uttarakhand, India. I'm currently pursuing Bachelors in Computer Science and Engineering at Vellore Institute of Technology, Tamil Nadu, India. Right now, I'm in my third year of undergrad program. I've a keen interest in Machine Learning, Deep Learning, Software Development and Cloud. I'm very exhilarated to contribute my part as a Computer Science Engineer to the society.
+        </p>
+      </div>
+
+      <!-- User Specifics -->
+      <div class="user">
+
+        <div class="tech">
+          <h2>Languages</h2>
+          <i class="devicon-java-plain-wordmark colored"></i>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-cplusplus-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>   
+          <i class="devicon-c-plain-wordmark colored"></i>
+          <i class="devicon-php-plain colored"></i>
+          <i class="devicon-mysql-plain-wordmark colored"></i> 
+          <i class="devicon-html5-plain-wordmark colored"></i> 
+          <i class="devicon-css3-plain-wordmark colored"></i>     
+          <p>I love to use these langauges!</p>
+        </div>
+
+        <div class="tech">
+          <h2>Other Technologies</h2>
+          <i class="devicon-tensorflow-original colored"></i>
+          <i class="devicon-pytorch-original colored"></i>
+          <i class="devicon-numpy-original colored"></i>
+          <i class="devicon-pandas-original colored"></i>
+          <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+          <i class="devicon-flask-original colored"></i>
+          <i class="devicon-git-plain colored"></i>
+          <i class="devicon-github-original colored"></i>
+          <i class="devicon-heroku-plain colored"></i>
+          <i class="devicon-opencv-plain colored"></i>
+          <p>I use these technologies for various purposes such as Machine Learning, Cloud Computing, Version Controlling and Data Analysis.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+
+    <main class="CV-page">
+      <div class="CV-grid">
+        <div class="CV-grid-column">
+          <div class="CV-jobs">
+            <div class="user-details">
+              <h1>Experience</h1>
+            </div>
+            <section class="CV-timeline CV-job">
+              <h3 class="CV-timeline-heading"><span class="CV-timeline-heading-title">Microsoft Engage Mentee </span>&#8211; <span class="CV-timeline-heading-location">Microsoft </span><small class="CV-timeline-heading-duration">May 2022 - June 2022</small></h3>
+              <ul class="CV-timeline-details">
+                <li class="CV-job-timeline-item">Selected from amongst 30K participants.</li>
+                <li class="CV-job-timeline-item">Made a project showcasing Facial Recognition using OpenCV and Flask.</li>
+              </ul>
+            </section>
+            <section class="CV-timeline CV-job">
+              <h3 class="CV-timeline-heading"><span class="CV-timeline-heading-title">Core Committee Member </span>&#8211; <span class="CV-timeline-heading-location">Indian Society for Technical Education (ISTE)</span><small class="CV-timeline-heading-duration">December 2020 - April 2021</small></h3>
+              <ul class="CV-timeline-details">
+                <li class="CV-timeline-details-item">Indian Society for Technical Education (ISTE) is a national, non-profit Society with an aim to assist and contribute to the production and development of top-quality professional engineers with partners like Adobe and JetBrains. </li>
+                <li class="CV-timeline-details-item">Worked as a Core Committee Member and also organized various
+                  Technical Fests such as Horizon.
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>My Projects</h1>
+      </div>
+      
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <img src="{{ url_for('static', filename = 'assets/img/project_1.jpg')}}" alt="" class="img-fluid">
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Neural Play</h3>
+          <p style="text-align: justify">
+            This project is a platform where a user who has little to no knowledge of creating a neural network or training their model for
+            their own problem can get started with their problem.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/kartikeya47/NeuralPlay">Project Link</a>
+        </div>
+      </div>
+
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <img src="{{ url_for('static', filename = 'assets/img/project_2.jpg')}}" alt="" class="img-fluid">
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Prison Management System</h3>
+          <p style="text-align: justify">
+            This project would help prisons to manage jailors, prisoners and visitors effectively. It can also recommend the behaviour
+            suggested for a particular prisoner based on his/her past records.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/kartikeya47/Prison-Management-System">
+            Project Link
+          </a>
+        </div>
+      </div>
+
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <img src="{{ url_for('static', filename = 'assets/img/project_3.jpg')}}" alt="" class="img-fluid">
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>FACET</h3>
+          <p style="text-align: justify">
+            This project would help workplaces/organisations to take attendance with the help of modern AI technology using facial
+            recognition to ease the purpose.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/kartikeya47/MSE-Face-Recognition-Attendance-System">Project Link</a>
+        </div>
+      </div>
+
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <img src="{{ url_for('static', filename = 'assets/img/project_4.jpg')}}" alt="" class="img-fluid">
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>HBEATr</h3>
+          <p style="text-align: justify">
+            A WebApp that is able to predict whether a person is having a healthy heart or not. Worked on the Machine Learning part of the
+            project, and used the most improved and accurate model to get the resultant predictions.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/kartikeya47/hbeatr_main">
+            Project Link
+          </a>
+        </div>
+      </div>
+
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <img src="{{ url_for('static', filename = 'assets/img/project_5.jpg')}}" alt="" class="img-fluid">
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Decentralized Voting System</h3>
+          <p style="text-align: justify">
+            A project that can conduct Mini Elections between people with the help of Blockchain Technology using
+            Smart Contracts via the Ethereum Blockchain and ensure security due the Decentralization provided. This uses MetaMask Browser
+            Extension for making payments and voting.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/kartikeya47/E-Voting-System-Using-Smart-Contracts">Project Link</a>
+        </div>
+      </div>
+
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <img src="{{ url_for('static', filename = 'assets/img/project_6.jpg')}}" alt="" class="img-fluid">
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Malware Analysis with Machine Learning</h3>
+          <p style="text-align: justify">
+            Using the power of Supervised Learning and Unsupervised Learning to analyze the given
+            Malware Data and hence performing Classification and Clustering on the data to provide
+            various insights.
+          </p>
+          <a class="project-link" target="_blank" href="https://colab.research.google.com/drive/1xK67fANfjLCyWaSZ67hm6CFMVEnAhf6t?usp=sharing">
+            Project Link
+          </a>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>Achievements</h1>
+        <p>
+          Came Top 15 out of a total of 100+ teams in VIT SELECT School Makeathon 2023
+        </p>
+        <p>
+          Came Top 7 out of a total of 80 teams in GDSC Women Techies 2023 Hackathon
+        </p>
+        <p>
+          Certified AWS Cloud Practitioner (2022 - 2025)
+        </p>
+        <p>
+          Selected from amongst 25K-30K participants from all over India in the Microsoft Engage'22 Program
+        </p>
+        <p>
+          Kaggle Notebooks Expert (7 Bronze Medals)
+        </p>
+      </div>
+    </section>
+
+<div class="form-submit">  
+      <form id="contact"action="/contact" method="post">
+        <h2>Contact Me!</h2>
+        <fieldset>
+          <input name="name" placeholder="Enter Your Name" type="text" tabindex="1" required>
+        </fieldset>
+        <fieldset>
+          <input name="email" placeholder="Enter Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input name="subject" placeholder="Enter the Subject" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <textarea name="message" placeholder="Type Your Message" tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit Now</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; Kartikeya Rawat, 2023</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="{{ url_for('static', filename = 'assets/js/sweet-scroll.min.js')}}"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="{{ url_for('static', filename = 'assets/js/google-analytics.js')}}"></script>
+    <!-- Import JS: Main Script -->
+    <script src="{{ url_for('static', filename = 'assets/js/main.js')}}"></script>
+
+  </body>
+</html>
