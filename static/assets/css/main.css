@@ -4968,7 +4968,7 @@ a img {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
-    color: #4b5664
+    color: #CC2B5E
 }
 
 #about {
@@ -5636,7 +5636,7 @@ a:hover {
 
 .CV-timeline-heading-title {
   line-height: 1;
-  color: #CC2B5E;
+  color: #222222;
   font-style: italic;
   text-transform: uppercase;
 }
