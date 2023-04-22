@@ -4822,11 +4822,11 @@ a img {
 }
 
 #particles-js {
-    background: #212121;
+    background: #CC2B5E;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #212121, #212121);
+    background: -webkit-linear-gradient(to right, #CC2B5E, #753A88);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2a2b2c, #181818);
+    background: linear-gradient(to right, #CC2B5E, #753A88);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4927,7 +4927,7 @@ a img {
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color: #212121;
+    color: #CC2B5E;
     background: #fff
 }
 
@@ -5042,7 +5042,7 @@ a img {
 }
 
 .user-projects li {
-    color: #212121;
+    color: #CC2B5E;
     font-size: 1.1rem
 }
 
@@ -5085,9 +5085,9 @@ a img {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: #212121;
+    color: #CC2B5E;
     background-color: transparent;
-    border: 1px solid #212121;
+    border: 1px solid #CC2B5E;
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -5098,18 +5098,18 @@ a img {
 
 .project-link:active,
 .project-link:hover {
-    background-color: #212121;
-    border-color: #212121;
+    background-color: #CC2B5E;
+    border-color: #CC2B5E;
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
 
 .footer {
-    background: #212121;
+    background: #CC2B5E;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #212121, #212121);
+    background: -webkit-linear-gradient(to right, #CC2B5E, #753A88);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2a2b2c, #181818);
+    background: linear-gradient(to right, #CC2B5E, #753A88);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
@@ -5157,7 +5157,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #212121;
+  color: #CC2B5E;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -5168,7 +5168,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #212121;
+  color: #CC2B5E;
 }
 
 .color-d {
@@ -5221,7 +5221,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #212121;
+  background-color: #CC2B5E;
 }
 
 .overlay-mf {
@@ -5290,7 +5290,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #212121;
+  background-color: #CC2B5E;
   margin: 0 auto;
 }
 
@@ -5307,7 +5307,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #212121;
+  background-color: #CC2B5E;
   width: 100px;
   bottom: -12px;
 }
@@ -5345,11 +5345,11 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #212121;
+  box-shadow: 0 0 0 3px #CC2B5E;
   transition: all 500ms ease;
 }
 .socials .ico-circle:hover {
-  background-color: #212121;
+  background-color: #CC2B5E;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -5366,7 +5366,7 @@ a:hover {
   line-height: 2;
 }
 .list-ico span {
-  color: #212121;
+  color: #CC2B5E;
   margin-right: 10px;
 }
 
@@ -5379,7 +5379,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #212121;
+  box-shadow: 0 0 0 10px #CC2B5E;
   display: block;
 }
 
@@ -5419,7 +5419,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #212121;
+  background-color: #CC2B5E;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -5513,7 +5513,7 @@ a:hover {
     cursor: pointer;
     width: 100%;
     border: none;
-    background: #212121;
+    background: #CC2B5E;
     color: #FFF;
     margin: 0 0 5px;
     padding: 10px;
@@ -5521,7 +5521,7 @@ a:hover {
   }
   
   #contact button[type="submit"]:hover {
-    background: #212121;
+    background: #CC2B5E;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
@@ -5636,7 +5636,7 @@ a:hover {
 
 .CV-timeline-heading-title {
   line-height: 1;
-  color: #212121;
+  color: #CC2B5E;
   font-style: italic;
   text-transform: uppercase;
 }
