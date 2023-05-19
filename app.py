@@ -1,16 +1,26 @@
 from flask import Flask, render_template, request, redirect
 import pyrebase
+import os
+
+apiKey = os.environ.get('apiKey')
+authDomain = os.environ.get('authDomain')
+projectId = os.environ.get('projectId')
+storageBucket = os.environ.get('storageBucket')
+messagingSenderId = os.environ.get('messagingSenderId')
+appId = os.environ.get('appId')
+measurementId = os.environ.get('measurementId')
+databaseURL = os.environ.get('databaseURL')
 
 app = Flask(__name__)
 
-firebaseConfig = {'apiKey': "AIzaSyBRyj1YZYpWwSffmxuZH8Td5-OQI5zhVCM",
-  'authDomain': "personalportfoliowebapp.firebaseapp.com",
-  'projectId': "personalportfoliowebapp",
-  'storageBucket': "personalportfoliowebapp.appspot.com",
-  'messagingSenderId': "506312845182",
-  'appId': "1:506312845182:web:cb778ed2b86e4c238ef52f",
-  'measurementId': "G-QZKF8SVLS7",
-  'databaseURL': "https://personalportfoliowebapp-default-rtdb.firebaseio.com/"}
+firebaseConfig = {'apiKey': apiKey,
+  'authDomain': authDomain,
+  'projectId': projectId,
+  'storageBucket': storageBucket,
+  'messagingSenderId': messagingSenderId,
+  'appId': appId,
+  'measurementId': measurementId,
+  'databaseURL': databaseURL}
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 
