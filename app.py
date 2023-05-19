@@ -1,26 +1,20 @@
 from flask import Flask, render_template, request, redirect
 import pyrebase
+from dotenv import load_dotenv
 import os
 
-apiKey = os.environ.get('apiKey')
-authDomain = os.environ.get('authDomain')
-projectId = os.environ.get('projectId')
-storageBucket = os.environ.get('storageBucket')
-messagingSenderId = os.environ.get('messagingSenderId')
-appId = os.environ.get('appId')
-measurementId = os.environ.get('measurementId')
-databaseURL = os.environ.get('databaseURL')
+load_dotenv()
 
 app = Flask(__name__)
 
-firebaseConfig = {'apiKey': apiKey,
-  'authDomain': authDomain,
-  'projectId': projectId,
-  'storageBucket': storageBucket,
-  'messagingSenderId': messagingSenderId,
-  'appId': appId,
-  'measurementId': measurementId,
-  'databaseURL': databaseURL}
+firebaseConfig = {'apiKey': os.getenv('apiKey'),
+  'authDomain': os.getenv('authDomain'),
+  'projectId': os.getenv('projectId'),
+  'storageBucket': os.getenv('storageBucket'),
+  'messagingSenderId': os.getenv('messagingSenderId'),
+  'appId': os.getenv('appId'),
+  'measurementId': os.getenv('measurementId'),
+  'databaseURL': os.getenv('databaseURL')}
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 
